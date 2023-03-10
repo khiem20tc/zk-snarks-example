@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "circom": "^0.5.46",
+    "webcrypto": "^0.1.1",
+    "zokrates-js": "^1.1.5"
+  },
+  "name": "zksnarks",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "zk-snarks.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
