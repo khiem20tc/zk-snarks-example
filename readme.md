@@ -1,6 +1,7 @@
+## Comparisions
 ZKSnarks and Merkle proofs are both cryptographic techniques used to verify the validity of data, but they have different applications and work in different ways. In this deep dive, we will explore the differences between ZKSnarks and Merkle proofs in more detail.
 
-Proving Knowledge vs. Proving Existence:
+## Proving Knowledge vs. Proving Existence:
 The primary difference between ZKSnarks and Merkle proofs is that they are used for different purposes. ZKSnarks are used to prove knowledge of a particular piece of information, without revealing the information itself. In contrast, Merkle proofs are used to prove the existence of a particular piece of data within a large dataset, without revealing any additional information about the dataset.
 
 - Proof Complexity:
@@ -17,9 +18,15 @@ Another important difference between ZKSnarks and Merkle proofs is their scalabi
 
 In summary, ZKSnarks and Merkle proofs are both cryptographic techniques used to verify the validity of data, but they have different applications and work in different ways. ZKSnarks are used to prove knowledge of a particular piece of information, without revealing the information itself, while Merkle proofs are used to prove the existence of a particular piece of data within a large dataset. ZKSnarks are generally more complex and less scalable than Merkle proofs, but they offer greater privacy guarantees.
 
-EXAMPLES: 
+## EXAMPLES: 
 
 I can prove that I known x such that with a = "2", b = "3", c= "4" and result = "0x000000000000000000000000000000000000000000000000000000000000003d" and x is valid without show x 
 or polynomial valid f(x)=a*x*x + b*x - c.
 
-And the mapping is a=Name, b=Age, c=Phone and x=ScretCode. In this case, I can prove that I can have x withou show x for purpose IDENTITY. 
+And the mapping is a=Name, b=Age, c=Phone and x=SecretCode(CCCD). In this case, I can prove that I can have x without show x for purpose IDENTITY. 
+
+## REFERENCES:
+
+[1] https://medium.com/@ppio/zksnarks-zero-knowledge-proof-feb76bf49e1a
+
+[2] https://medium.com/coinmonks/zk-poker-a-simple-zk-snark-circuit-8ec8d0c5ee52
